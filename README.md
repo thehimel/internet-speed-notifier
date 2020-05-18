@@ -6,7 +6,7 @@ Sometimes in a few cases where network speed fluctuates, it becomes necessary to
 Presently, I am staying in a developing country where broadband speed fluctuates a lot. The broadband connection is of 10 MBPS but sometimes it becomes 0.5 MBPS. So, it is important for me to get notified when the network speed becomes more than 5 MBPS so that I can work without trouble. This is the reason to build this app.
 
 ### Note
-System must have Git [bash](https://git-scm.com/) to run this app in Windows 10
+System must have [Git bash](https://git-scm.com/) to run this app in Windows 10
 
 ### Future Updates
 * Send email when the speed is more than defined speed.
