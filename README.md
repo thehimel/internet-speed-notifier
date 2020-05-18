@@ -1,4 +1,4 @@
-# internet-speed-notifier
+# Internet Speed Notifier
 This app notifes the internet speed through voice and windows notification every n minutes. By default n=300 sec.
 
 Sometimes in few cases where network speed fluctuates, it becomes necessary to get notified about the network speed with an interval of time.
