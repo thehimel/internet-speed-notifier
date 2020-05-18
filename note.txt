@@ -1,3 +1,9 @@
+Program workflow
+----------------
+app.py -> speed.py -> notify.py -> tts.py
+
+Dependencies
+------------
 pip install speedtest-cli
 pip install win10toast
 pip install gTTS
