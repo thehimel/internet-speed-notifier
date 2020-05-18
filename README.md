@@ -8,6 +8,7 @@ Presently, I am staying in a developing country where broadband speed fluctuates
 ### Future Updates
 * Send email when the speed is more than defined speed.
 * Play defined audio when the speed is more than defined speed.
+* Change the network if the present network is slow, automatically revert to primary network e.g. broadband, when the expected speed is met.
 
 ### Screenshot
 ![Screenshot](./Screenshot.png)
