@@ -1,0 +1,19 @@
+pip install speedtest-cli
+pip install win10toast
+pip install gTTS
+from playsound import playsound
+
+Test internet speed with Python
+https://www.geeksforgeeks.org/test-internet-speed-using-python/
+
+Create Windows 10 notifications with Python
+https://towardsdatascience.com/how-to-make-windows-10-toast-notifications-with-python-fb3c27ae45b9
+
+Run certain code every n seconds
+https://stackoverflow.com/questions/3393612/run-certain-code-every-n-seconds
+
+Text to Speech in Python
+https://www.geeksforgeeks.org/convert-text-speech-python/
+
+Play audio in Windows
+https://pythonbasics.org/python-play-sound/
