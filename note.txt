@@ -1,6 +1,6 @@
 Program workflow
 ----------------
-app.py -> speed.py -> notify.py -> tts.py
+app.py -> check_connection.py -> speed.py -> notify.py -> tts.py
 
 Dependencies
 ------------
@@ -23,3 +23,9 @@ https://www.geeksforgeeks.org/convert-text-speech-python/
 
 Play audio in Windows
 https://pythonbasics.org/python-play-sound/
+
+Notification Tones
+------------------
+https://notificationsounds.com/notification-sounds/piece-of-cake-611
+
+https://notificationsounds.com/wake-up-tones/martian-gun-436

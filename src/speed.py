@@ -2,8 +2,7 @@ import speedtest
 
 # Custom Modules
 from notify import notify
-
-st = speedtest.Speedtest()
+# from console import log
 
 
 def bw_in_mb(bw_in_bytes):
@@ -15,10 +14,21 @@ def bw_in_mb(bw_in_bytes):
     return round(bw, 2)
 
 
-def test_speed():
-    download_speed = bw_in_mb(st.download())
-    upload_speed = bw_in_mb(st.upload())
-    # download_speed = 2
-    # upload_speed = 2
+def test_speed(args):
+    st = speedtest.Speedtest()
+    result = {}
+    """
+    result = {
+        downloadSpeed: 0,
+        uploadSpeed: 0
+    }
+    """
 
-    notify(download_speed, upload_speed)
+    result['downloadSpeed'] = bw_in_mb(st.download())
+    result['uploadSpeed'] = bw_in_mb(st.upload())
+    # log(str(result))
+
+    # result['downloadSpeed'] = 0.5
+    # result['uploadSpeed'] = 0.5
+
+    notify(result, args)
