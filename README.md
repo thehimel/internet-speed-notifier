@@ -12,15 +12,15 @@ usage: app.py [-h] [-d] [-dl] [-du] [-ul] [-uu] [-ns] [-nv] [-nt]
 Network Speed Notifier
 
 optional arguments:
-  -h, --help        show this help message and exit
-  -d , --delay      Delay in seconds for interval between tests
-  -dl , --dlower    Lower bound of download speed to get special notification
-  -du , --dupper    Upper bound of download speed to get special notification
-  -ul , --ulower    Lower bound of upload speed to get special notification
-  -uu , --uupper    Upper bound of upload speed to get special notification
-  -ns, --nospecial  Turn off the special notification
-  -nv, --novoice    Turn off the voice notification
-  -nt, --notoast    Turn off the Windows 10 toast notification
+*  -h, --help        show this help message and exit
+*  -d , --delay      Delay in seconds for interval between tests
+*  -dl , --dlower    Lower bound of download speed to get special notification
+*  -du , --dupper    Upper bound of download speed to get special notification
+*  -ul , --ulower    Lower bound of upload speed to get special notification
+*  -uu , --uupper    Upper bound of upload speed to get special notification
+*  -ns, --nospecial  Turn off the special notification
+*  -nv, --novoice    Turn off the voice notification
+*  -nt, --notoast    Turn off the Windows 10 toast notification
 
 ### Features
 * Change options according to the CLA.
